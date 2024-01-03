@@ -38,7 +38,7 @@ function App() {
     <div className='app'>
 
       <Routes>
-      <Route path='/' element={<FoodMain quary={quary} setQuary={setQuary}
+      <Route path='/Food-Recipe' element={<FoodMain quary={quary} setQuary={setQuary}
       fCat={fCat} setFCat={setFCat} searchCat={searchCat} />}></Route>
 
       <Route path='MealRecipe/:idMeal' element={<MealRecipe />}></Route>
