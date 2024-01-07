@@ -283,7 +283,9 @@ h3 {
 }
 
 .Home{
-  font-size: 20px;
+  font-size: 40px;
+  margin: 30px;
+  background-color: rgb(193, 187, 175);
   
 }
 
@@ -301,3 +303,22 @@ h3 {
 }
 
 
+.tego{
+  width: 100%;
+
+  margin: 15px;
+  padding: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  color: gold;
+
+}
+
+.Link-m{
+  margin: 5px;
+}
+
+.btn:hover{
+  background-color: aqua;
+  color: #a1a1a1;
+}

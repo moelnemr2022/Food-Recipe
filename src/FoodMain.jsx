@@ -1,3 +1,5 @@
+import { Link, NavLink } from "react-router-dom";
+
 import searchIcon from './search.svg'
 
 import FoodCard from './FoodCard'
@@ -17,7 +19,14 @@ export default function FoodMain({ quary, setQuary, fCat, setFCat, searchCat }) 
       <div className='search'>
         <input type="text" onChange={(e) => setQuary(e.target.value)} placeholder='search for food' />
         <img src={searchIcon} onClick={() => searchCat()} alt="" />
+
         </div>
+       
+          
+      </div>
+      <div className="categoryDivBtn d-flex justify-content-center">
+      <Link to={'/Category'} className="btn btn-light tego">Category</Link>
+
       </div>
       <Slider />
 

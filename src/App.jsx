@@ -7,6 +7,9 @@ import Test from './MealRecipe'
 import { Route, Routes } from 'react-router-dom'
 import FoodMain from './FoodMain'
 import MealRecipe from './MealRecipe'
+import Category from './Category'
+import CategoryCard from './CategoryCard'
+import CategoryMeal from './CategoryMeal'
 
 
 
@@ -38,12 +41,25 @@ function App() {
     <div className='app'>
 
       <Routes>
-      <Route path='/Food-Recipe' element={<FoodMain quary={quary} setQuary={setQuary}
-      fCat={fCat} setFCat={setFCat} searchCat={searchCat} />}></Route>
+        <Route path='/Food-Recipe' element={
+          <>
+            <FoodMain quary={quary} setQuary={setQuary}
+              fCat={fCat} setFCat={setFCat} searchCat={searchCat} />
+            {/* <Category /> */}
+          </>
+        }></Route>
 
-      <Route path='MealRecipe/:idMeal' element={<MealRecipe />}></Route>
-
+        <Route path='MealRecipe/:idMeal' element={<MealRecipe />}></Route>
+        <Route path='CategoryMeal/:strCategory' element={<CategoryMeal />}></Route>
+        <Route path='Category' element={<Category/>}></Route>
       </Routes>
+      <div>
+
+
+
+
+      </div>
+
     </div>
 
 

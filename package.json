@@ -1,5 +1,6 @@
 {
   "name": "food",
+  "homepage": "https://github.com/moelnemr2022/Food-Recipe",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -22,7 +23,8 @@
     "react-dom": "^18.2.0",
     "react-player": "^2.14.1",
     "react-router-dom": "^6.21.1",
-    "sort-by": "^0.0.2"
+    "sort-by": "^0.0.2",
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
     "@playwright/test": "^1.40.1",

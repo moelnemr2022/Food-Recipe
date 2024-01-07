@@ -29,11 +29,13 @@ import ReactPlayer from 'react-player'
 
   return (
     <div className='main'>
-      <h1 className='Meal'>
+     
+     <div className='d-flex justify-content-center my-5'>
+      <h1 className='Meal text-center'>
         {fCat[0].strMeal}
 
       </h1>
-     
+      </div>
       <img  className='Thumb' src={fCat[0].strMealThumb} />
     
       <h2 className='Instructions'>
@@ -41,11 +43,11 @@ import ReactPlayer from 'react-player'
         {fCat[0].strInstructions}
         
       </h2>
-     
+     <div className='d-flex justify-content-center my-5'>
       <h1>
         ingredient:
       </h1>
-     
+      </div>
     
       {ing.map((item, index) => (<h3 key={index}>{item}</h3>))}
 
