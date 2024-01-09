@@ -3,7 +3,6 @@ import './App.css'
 import FoodCard from './FoodCard'
 import Slider from './Slider'
 import { useEffect, useState } from 'react'
-import Test from './MealRecipe'
 import { Route, Routes } from 'react-router-dom'
 import FoodMain from './FoodMain'
 import MealRecipe from './MealRecipe'
@@ -49,14 +48,12 @@ function App() {
           <>
             <FoodMain quary={quary} setQuary={setQuary}
               fCat={fCat} setFCat={setFCat} searchCat={searchCat} />
-            {/* <Category /> */}
+            
           </>
         }>
         
         </Route>
-        {/* <Route path='/MealRecipe/:idMeal' element={<MealRecipe />}></Route>
-        <Route path='/CategoryMeal/:strCategory' element={<CategoryMeal />}></Route>
-        <Route path='/Category' element={<Category/>}></Route> */}
+       
       </Routes>
       <div>
 

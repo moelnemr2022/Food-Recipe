@@ -6,8 +6,6 @@
   import img3 from './imges/img3.jpg'
 
 
-
-
   function Slider() {
 
 

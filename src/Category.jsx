@@ -1,17 +1,12 @@
 import searchIcon from './search.svg'
 import { v4 as uuidv4 } from 'uuid';
 import { Link } from 'react-router-dom';
-
-
 import { useEffect, useState } from 'react'
-
 import CategoryCard from './CategoryCard'
 
 
 
 export default function Category() {
-
-
   const [quary, setQuary] = useState('')
   const [fCat, setFCat] = useState([])
   const api2 = 'https://www.themealdb.com/api/json/v1/1/search.php?s='
@@ -20,8 +15,6 @@ export default function Category() {
 
 
   const myuuid = uuidv4();
-
-
 
   function searchCat() {
     const url = apiUrl + quary
@@ -49,7 +42,6 @@ export default function Category() {
       <div className='container '>
 
 
-
         {fCat ? (
           fCat.map((item) => {
             return <CategoryCard key={uuidv4()} item={item} />
@@ -57,11 +49,6 @@ export default function Category() {
         ) : <h2 className='noData'>No Data Available</h2>}
 
       </div>
-
-
-
-
-
 
     </div>
   )

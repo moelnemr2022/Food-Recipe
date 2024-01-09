@@ -17,7 +17,7 @@ import ReactPlayer from 'react-player'
       let ingmeasure = i + '- ' + measurevarf + ' of ' + ingervarf
       ingervarf && arrData.push(ingmeasure)
     }
-     console.log('tego', arrData);
+     console.log('Data', arrData);
     setIng(arrData)
   }
 

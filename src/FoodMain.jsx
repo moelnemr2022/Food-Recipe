@@ -1,7 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
-
 import searchIcon from './search.svg'
-
 import FoodCard from './FoodCard'
 import Slider from './Slider'
 import { useEffect, useState } from 'react'
@@ -34,8 +32,6 @@ export default function FoodMain({ quary, setQuary, fCat, setFCat, searchCat }) 
 
       <div className='container '>
 
-
-
         {fCat ? (
           fCat.map((item) => {
             return <FoodCard key={item.idMeal} item={item} />
@@ -44,11 +40,6 @@ export default function FoodMain({ quary, setQuary, fCat, setFCat, searchCat }) 
         ) : <h2 className='noData'>No Data Available</h2>}
 
       </div>
-
-
-
-
-
 
     </div>
   )
