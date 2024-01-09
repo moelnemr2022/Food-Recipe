@@ -9,7 +9,7 @@ export default function CategoryCard(props) {
   return (
     <div className="movie" onClick={() => testDetails()} >
 
-      <Link to={`/CategoryMeal/${props.item.strCategory}`}>
+      <Link to={`/Food-Recipe/CategoryMeal/${props.item.strCategory}`}>
 
 
 

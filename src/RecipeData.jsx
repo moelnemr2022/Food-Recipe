@@ -17,7 +17,7 @@ import ReactPlayer from 'react-player'
       let ingmeasure = i + '- ' + measurevarf + ' of ' + ingervarf
       ingervarf && arrData.push(ingmeasure)
     }
-    console.log('tego', arrData);
+     console.log('tego', arrData);
     setIng(arrData)
   }
 
@@ -38,11 +38,13 @@ import ReactPlayer from 'react-player'
       </div>
       <img  className='Thumb' src={fCat[0].strMealThumb} />
     
-      <h2 className='Instructions'>
+    
+      <h2 className='Instructions' >
         <h3> Instructions </h3>
         {fCat[0].strInstructions}
         
       </h2>
+    
      <div className='d-flex justify-content-center my-5'>
       <h1>
         ingredient:
@@ -54,7 +56,7 @@ import ReactPlayer from 'react-player'
 <div className='ReactPlayer' >
       <ReactPlayer 
         url={fCat[0].strYoutube}
-        controls='true'
+        controls={true}
         width='740px'
         height='360px'
       />

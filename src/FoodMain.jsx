@@ -11,21 +11,21 @@ export default function FoodMain({ quary, setQuary, fCat, setFCat, searchCat }) 
   useEffect(() => { searchCat() }, [])
 
   return (
-    <div >  
+    <div >
       <div className='dd'>
-      <h1 >Food Recipe</h1>
+        <h1 >Food Recipe</h1>
       </div>
       <div className='search_new'>
-      <div className='search'>
-        <input type="text" onChange={(e) => setQuary(e.target.value)} placeholder='search for food' />
-        <img src={searchIcon} onClick={() => searchCat()} alt="" />
+        <div className='search'>
+          <input type="text" onChange={(e) => setQuary(e.target.value)} placeholder='search for food' />
+          <img src={searchIcon} onClick={() => searchCat()} alt="" />
 
         </div>
-       
-          
+
+
       </div>
       <div className="categoryDivBtn d-flex justify-content-center">
-      <Link to={'/Category'} className="btn btn-light tego">Category</Link>
+        <Link to={'/Food-Recipe/Category'} className="btn btn-light tego">Category</Link>
 
       </div>
       <Slider />

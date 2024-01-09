@@ -28,17 +28,16 @@ import RecipeData from './RecipeData'
 
   return (
     <>
-      {/* <h1> {params.idMeal}</h1> */}
-    
-      <Link  className='Home btn ' to="/Food-Recipe">Home</Link>
-      {fCat.length && <Link  className='Home btn' to={`/CategoryMeal/${fCat[0].strCategory}`}> {fCat[0].strCategory} Category</Link>
-}
-{/* <Link className='Home' to={`/CategoryMeal/${props.item.strCategory}`}>lllllllllllllll</Link>  */}
+      <Link  className='Home btn' to="/Food-Recipe">Home</Link>
+      
+
+      {fCat.length && <Link  className='Home btn' to={`/Food-Recipe/CategoryMeal/${fCat[0].strCategory}`}> {fCat[0].strCategory} Category</Link>}
+      
       <h2 className='FF'>
         {fCat.length > 0 ? <RecipeData fCat={fCat} /> : <p>loading</p>}
-      </h2>
-
-
+     </h2> 
+   
+   
     </>
   )
 }

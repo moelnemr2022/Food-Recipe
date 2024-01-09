@@ -25,6 +25,8 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
+  
 }
 
 h1 {
@@ -267,6 +269,7 @@ h1 {
   margin-bottom: 20px;
   background-color: rgb(118, 114, 114);
   color: white;
+  
 }
 
 
@@ -275,6 +278,8 @@ h3 {
   font-size: 20px;
   margin-bottom: 5px;
   color: #f0f0f0;
+  
+ 
 }
 
 .ReactPlayer {
@@ -310,7 +315,7 @@ h3 {
   padding: 10px;
   font-size: 30px;
   font-weight: bold;
-  color: gold;
+  color:darkslategray;
 
 }
 
@@ -319,6 +324,6 @@ h3 {
 }
 
 .btn:hover{
-  background-color: aqua;
-  color: #a1a1a1;
+  background-color: #f9d3b4;
+  color: black;
 }

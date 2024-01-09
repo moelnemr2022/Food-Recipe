@@ -32,7 +32,7 @@ export default  function CategoryMeal() {
       <h1> {params.strCategory}</h1>
 <div className='Link-m'>
       
-       <Link  className='Home btn' to="/Category">Back</Link> 
+       <Link  className='Home btn' to="/Food-Recipe/Category">Back</Link> 
 
        <Link  className='Home btn' to="/Food-Recipe">Home </Link> 
        </div>

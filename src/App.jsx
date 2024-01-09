@@ -41,17 +41,22 @@ function App() {
     <div className='app'>
 
       <Routes>
+      <Route path='/Food-Recipe/MealRecipe/:idMeal' element={<MealRecipe />}></Route> 
+        <Route path='/Food-Recipe/CategoryMeal/:strCategory' element={<CategoryMeal />}></Route>
+        <Route path='/Food-Recipe/Category' element={<Category/>}></Route>
         <Route path='/Food-Recipe' element={
+          
           <>
             <FoodMain quary={quary} setQuary={setQuary}
               fCat={fCat} setFCat={setFCat} searchCat={searchCat} />
             {/* <Category /> */}
           </>
-        }></Route>
-
-        <Route path='MealRecipe/:idMeal' element={<MealRecipe />}></Route>
-        <Route path='CategoryMeal/:strCategory' element={<CategoryMeal />}></Route>
-        <Route path='Category' element={<Category/>}></Route>
+        }>
+        
+        </Route>
+        {/* <Route path='/MealRecipe/:idMeal' element={<MealRecipe />}></Route>
+        <Route path='/CategoryMeal/:strCategory' element={<CategoryMeal />}></Route>
+        <Route path='/Category' element={<Category/>}></Route> */}
       </Routes>
       <div>
 
