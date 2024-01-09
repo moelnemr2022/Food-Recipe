@@ -3,7 +3,7 @@
 
 
 
-![Main](./src/imges/pic.png)
+![Food-main](./src/imges/pic.png)
 ![Category](./src/imges/pic2.png)
 
 
