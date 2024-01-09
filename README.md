@@ -9,12 +9,6 @@
 ![Food-main](./src/imges/pic2.png)
 
 
-<center>
-# Main
-![Food-Recipe](./src/imges/pic.png)
-# Category
-![Category](./src/imges/pic2.png)
-</center>
 
 ## Overview
 
