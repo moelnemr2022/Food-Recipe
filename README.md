@@ -2,7 +2,7 @@
 # Food Recipe App
 
 
-![Category](./src/imges/pic.png width="600px)
+![Category](./src/imges/pic.png)
 
 <p align="center"><img src="./imges/pic2.png" width="600px"/></p>
 
