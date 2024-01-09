@@ -1,5 +1,13 @@
 
+
 # Food Recipe App
+
+
+![Category](./src/imges/pic.png)
+
+
+![Food-main](./src/imges/pic2.png)
+
 
 <center>
 # Main
