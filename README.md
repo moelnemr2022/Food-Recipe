@@ -2,7 +2,7 @@
 # Food Recipe App
 </center>
 
-<p align="center"><img src="./imges/pic.png" width="600px"/></p>
+<p align="center"><img src="./imges/pic image.png" width="600px"/></p>
 
 <p align="center"><img src="./imges/pic2.png" width="600px"/></p>
 
