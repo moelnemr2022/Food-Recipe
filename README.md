@@ -2,8 +2,9 @@
 # Food Recipe App
 
 <center>
-![Food-main](./src/imges/pic.png)
-
+# Main
+![Food-Recipe](./src/imges/pic.png)
+# Category
 ![Category](./src/imges/pic2.png)
 </center>
 
