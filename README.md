@@ -2,12 +2,8 @@
 # Food Recipe App
 
 
-<p align="center"><img src="./imges/pic.png" width="600px"/></p>
-
-![Food-main](./src/imges/pic2.png)
-
 ![Category](./src/imges/pic.png)
-
+![Food-main](./src/imges/pic2.png)
 
 
 ## Overview
