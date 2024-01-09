@@ -1,11 +1,11 @@
 
 # Food Recipe App
 
-
-
+<center>
 ![Food-main](./src/imges/pic.png)
-![Category](./src/imges/pic2.png)
 
+![Category](./src/imges/pic2.png)
+</center>
 
 ## Overview
 
