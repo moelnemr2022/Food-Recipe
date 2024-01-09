@@ -4,7 +4,7 @@
 
 ![Category](./src/imges/pic.png)
 
-<p align="center"><img src="./imges/pic2.png" width="600px"/></p>
+![Food-main](./src/imges/pic2.png)
 
 ## Overview
 
