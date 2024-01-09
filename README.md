@@ -1,12 +1,12 @@
 
 # Food Recipe App
 
-<center>
+
 # Main
 ![Food-Recipe](./src/imges/pic.png)
 # Category
 ![Category](./src/imges/pic2.png)
-</center>
+
 
 ## Overview
 
@@ -23,14 +23,14 @@ This is a React-based web application for exploring and discovering various food
 - **Slider:** A visually appealing slider showcasing images related to food.
 
 ### Project Structure
-src/App.js: Main component containing the application structure and routing.
-src/Category.js: Component for displaying food categories.
-src/CategoryCard.js: Component for rendering individual category cards.
-src/CategoryMeal.js: Component for displaying meals within a specific category.
-src/FoodCard.js: Component for rendering individual food cards.
-src/FoodMain.js: Component for the main page displaying search results and food cards.
-src/MealRecipe.js: Component for displaying detailed information about a specific recipe.
-src/RecipeData.js: Component for rendering recipe details including ingredients, instructions, and video.
+- **App.js:** Main component containing the application structure and routing.
+- **Category.js:** Component for displaying food categories.
+- **CategoryCard.js:** Component for rendering individual category cards.
+- **CategoryMeal.js:** Component for displaying meals within a specific category.
+- **FoodCard.js:** Component for rendering individual food cards.
+- **FoodMain.js:** Component for the main page displaying search results and food cards.
+- **MealRecipe.js:** Component for displaying detailed information about a specific recipe.
+- **RecipeData.js:** Component for rendering recipe details including ingredients, instructions, and video.
 
 ### Dependencies
 - **React**
