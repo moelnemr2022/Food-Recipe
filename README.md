@@ -2,7 +2,7 @@
 # Food Recipe App
 
 
-![Category](./src/imges/pic.png)
+![Category](./src/imges/pic.png width='600px')
 
 
 ![Food-main](./src/imges/pic2.png)
