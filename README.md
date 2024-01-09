@@ -1,9 +1,6 @@
 
 # Food Recipe App
 
-<center>
-<h1>Food Recipe App</h1>
-</center>
 
 <p align="center"><img src="./imges/pic.png" width="600px"/></p>
 
@@ -34,8 +31,8 @@ src/MealRecipe.js: Component for displaying detailed information about a specifi
 src/RecipeData.js: Component for rendering recipe details including ingredients, instructions, and video.
 
 ### Dependencies
-React
-React Router
-React Player
-Other dependencies as specified in package.json
+- **React**
+- **React Router**
+- **React Player**
+- **Other dependencies as specified in package.json**
 
