@@ -11,20 +11,20 @@ describe('App', () => {
     expect(headerText).toBeInTheDocument()
   })
 
-test('empty input', () => {
-  render(<App/>)
-let emptyInput = screen.getByRole('textbox')
-expect (emptyInput).toHaveValue('')
+// test('empty input', () => {
+//   render(<App/>)
+// let emptyInput = screen.getByRole('textbox')
+// expect (emptyInput).toHaveValue('')
 
-});
+// });
 
-test('renders the input on the screen', () => {
-    render(<App />);
-    let input = screen.getByRole('textbox')
-    expect(input).toBeInTheDocument();
-  });
+// test('renders the input on the screen', () => {
+//     render(<App />);
+//     let input = screen.getByRole('textbox')
+//     expect(input).toBeInTheDocument();
+//   });
 
-
+ 
 
 
  

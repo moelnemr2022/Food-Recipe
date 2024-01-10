@@ -3,10 +3,14 @@
 # Food Recipe App
 
 
-![Food-main](./src/imges/pic2.png)
+
+<center>
+<img src="./src/imges/pic.png" alt="Food-main" width="400" height="300"/>
+<img src="./src/imges/pic1.png" alt="Food-main" width="400" height="300"/>
+<img src="./src/imges/pic2.png" alt="Food-main" width="400" height="300"/>
+</center>
 
 
-![Category](./src/imges/pic.png)
 
 
 
