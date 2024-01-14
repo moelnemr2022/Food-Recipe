@@ -1,12 +1,16 @@
 import React from 'react'
 
+import { Link } from 'react-router-dom'
+
 export default function AboutUs() {
   return (
     <div className='About'>
 
-<h2>About Us </h2>
+      <div className='d-flex justify-content-center'> <Link className='Home btn ' to="/Food-Recipe">Home</Link></div>
+
+      <h2>About Us </h2>
       <p>
-      
+
         Welcome to my Food Recipe App, where our love for food meets the digital world! Our team is passionate about creating a platform that makes exploring and discovering delightful recipes an enjoyable experience. We believe that cooking should be a fun and accessible activity for everyone, and our app is designed to make that vision a reality.
         <br />
         <br />
