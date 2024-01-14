@@ -9,7 +9,8 @@ import MealRecipe from './MealRecipe'
 import Category from './Category'
 import CategoryCard from './CategoryCard'
 import CategoryMeal from './CategoryMeal'
-
+import Footer from './Footer'
+import AboutUs from './AboutUs'
 
 
 
@@ -38,7 +39,6 @@ function App() {
   return (
 
     <div className='app'>
-
       <Routes>
       <Route path='/Food-Recipe/MealRecipe/:idMeal' element={<MealRecipe />}></Route> 
         <Route path='/Food-Recipe/CategoryMeal/:strCategory' element={<CategoryMeal />}></Route>
@@ -53,17 +53,12 @@ function App() {
         }>
         
         </Route>
-       
+        <Route path='/AboutUs' element={<AboutUs />}></Route>
       </Routes>
-      <div>
-
-
-
-
-      </div>
-
+     
+      <Footer/>
     </div>
-
+   
 
   )
 }

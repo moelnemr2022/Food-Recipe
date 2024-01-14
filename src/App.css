@@ -325,3 +325,38 @@ h3 {
   background-color: #f9d3b4;
   color: black;
 }
+
+.Footer {
+  font-size: 20px;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #f9d3b4;
+  padding-top: 40px;
+}
+
+
+
+.about-link a {
+  text-decoration: none;
+  font-size: 20px;
+
+
+}
+
+.social-media {
+  display: flex;
+  gap: 10px;
+
+}
+
+.copy {
+  color: #f9d3b4;
+}
+
+.About {
+  color: #f9d3b4;
+  font-size: 30px;
+}

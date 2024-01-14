@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import ReactPlayer from 'react-player'
 
- function RecipeData({ fCat }) {
+function RecipeData({ fCat }) {
   console.log("ssss", fCat);
 
 
@@ -17,7 +17,7 @@ import ReactPlayer from 'react-player'
       let ingmeasure = i + '- ' + measurevarf + ' of ' + ingervarf
       ingervarf && arrData.push(ingmeasure)
     }
-     console.log('Data', arrData);
+    console.log('Data', arrData);
     setIng(arrData)
   }
 
@@ -29,38 +29,39 @@ import ReactPlayer from 'react-player'
 
   return (
     <div className='main'>
-     
-     <div className='d-flex justify-content-center my-5'>
-      <h1 className='Meal text-center'>
-        {fCat[0].strMeal}
 
-      </h1>
+      <div className='d-flex justify-content-center my-5'>
+        <h1 className='Meal text-center'>
+          {fCat[0].strMeal}
+
+        </h1>
       </div>
-      <img  className='Thumb' src={fCat[0].strMealThumb} />
-    
-    
+      <img className='Thumb' src={fCat[0].strMealThumb} />
+
+
       <h2 className='Instructions' >
         <h3> Instructions </h3>
         {fCat[0].strInstructions}
-        
+
       </h2>
-    
-     <div className='d-flex justify-content-center my-5'>
-      <h1>
-        ingredient:
-      </h1>
+
+      <div className='d-flex justify-content-center my-5'>
+        <h1>
+          ingredient:
+        </h1>
       </div>
-    
+
       {ing.map((item, index) => (<h3 key={index}>{item}</h3>))}
 
-<div className='ReactPlayer' >
-      <ReactPlayer 
-        url={fCat[0].strYoutube}
-        controls={true}
-        width='740px'
-        height='360px'
-      />
-</div>  
+      <div className='ReactPlayer' >
+        <ReactPlayer
+          url={fCat[0].strYoutube}
+          controls={true}
+          width='740px'
+          height='360px'
+
+        />
+      </div>
     </div>
   )
 }

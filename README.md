@@ -13,7 +13,6 @@
 
 
 
-
 ## Overview
 
 This is a React-based web application for exploring and discovering various food recipes. The app provides functionalities to search for recipes, view categories, and explore specific meals within those categories.
