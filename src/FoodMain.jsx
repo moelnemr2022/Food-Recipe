@@ -4,7 +4,7 @@ import FoodCard from './FoodCard'
 import Slider from './Slider'
 import { useEffect, useState } from 'react'
 
-export default function FoodMain({ quary, setQuary, fCat, setFCat, searchCat }) {
+export default function FoodMain({ setQuary, fCat, searchCat }) {
 
   useEffect(() => { searchCat() }, [])
 

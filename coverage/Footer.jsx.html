@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for FoodCard.jsx</title>
+    <title>Code coverage report for Footer.jsx</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="prettify.css" />
     <link rel="stylesheet" href="base.css" />
@@ -19,34 +19,34 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="index.html">All files</a> FoodCard.jsx</h1>
+        <h1><a href="index.html">All files</a> Footer.jsx</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">92.5% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>37/40</span>
+                <span class='fraction'>41/41</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">50% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>1/2</span>
+                <span class='fraction'>1/1</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">50% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>1/2</span>
+                <span class='fraction'>1/1</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">92.5% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>37/40</span>
+                <span class='fraction'>41/41</span>
             </div>
         
             
@@ -109,9 +109,6 @@
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
@@ -144,48 +141,51 @@
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { Link, NavLink } from "react-router-dom";
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React from 'react'
+import { Link } from 'react-router-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 &nbsp;
-function FoodCard(props) {
+import { faFacebookSquare,faTwitterSquare,faInstagramSquare } from '@fortawesome/free-brands-svg-icons'
 &nbsp;
-  const testDetails = <span class="fstat-no" title="function not covered" >()=&gt;{</span>
-<span class="cstat-no" title="statement not covered" > console.log('..wwwwwwwww.....',props.item.idMeal);</span>
-<span class="cstat-no" title="statement not covered" ></span>
-<span class="cstat-no" title="statement not covered" >  }</span>
+export default function Footer() {
   return (
-    &lt;div className="movie" onClick={testDetails} &gt;
+    &lt;&gt;
+      &lt;hr /&gt;
+        &lt;br /&gt;
+      &lt;div className='Footer'&gt;
 &nbsp;
-&lt;Link to={`/Food-Recipe/MealRecipe/${props.item.idMeal}`}&gt;
+      
+&nbsp;
+        &lt;div className="social-media"&gt;
+&nbsp;
+        &lt;a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"&gt;
+          &lt;FontAwesomeIcon icon={faFacebookSquare} data-testid='FaceBook' size="2x" color='rgb(249, 211, 180)'/&gt;
+        &lt;/a&gt;
+&nbsp;
+        &lt;a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"&gt;
+          &lt;FontAwesomeIcon icon={faInstagramSquare} data-testid='instagram' size="2x" color='rgb(249, 211, 180)' /&gt;
+        &lt;/a&gt;
+&nbsp;
+        &lt;a href="https://twitter.com" target="_blank" rel="noopener noreferrer"&gt;
+          &lt;FontAwesomeIcon icon={faTwitterSquare}  data-testid='twitter' size="2x" color='rgb(249, 211, 180)'/&gt;
+        &lt;/a&gt;
+        &lt;/div&gt;
+&nbsp;
+        &lt;h3 className='copy'&gt;© 2024 Food Recipe&lt;/h3&gt;
 &nbsp;
 &nbsp;
+        &lt;div className="about-link"&gt;
+          &lt;Link to="/AboutUs"&gt;AboutUs&lt;/Link&gt;
+        &lt;/div&gt;
 &nbsp;
-      &lt;div&gt;
-        &lt;p&gt;{props.item.strMeal}&lt;/p&gt;
       &lt;/div&gt;
-&nbsp;
-      &lt;div&gt;
-        &lt;img
-          src={props.item.strMealThumb
-            !== "N/A" ? props.item.<span class="branch-0 cbranch-no" title="branch not covered" >strMealThumb : "https://via.placeholder.com/400"}</span>
-          alt={props.item.strMeal}
-        /&gt;
-      &lt;/div&gt;
-&nbsp;
-      &lt;div&gt;
-        &lt;span&gt;{props.item.strMeal}&lt;/span&gt;
-        &lt;h3&gt;{props.item.strMeal}&lt;/h3&gt;
-&nbsp;
-&nbsp;
-&nbsp;
-      &lt;/div&gt;
-      &lt;/Link&gt;
-    &lt;/div&gt;
+    &lt;/&gt;
   )
 }
-&nbsp;
-export default FoodCard
-&nbsp;
 &nbsp;</pre></td></tr></table></pre>
 
                 <div class='push'></div><!-- for sticky footer -->

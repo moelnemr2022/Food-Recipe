@@ -2,7 +2,7 @@
   import './Slider.css'
 
   import img1 from './imges/img1.jpg'
-  import img2 from './imges/img2.jpg'
+  import img2 from './imges/img2.webp'
   import img3 from './imges/img3.jpg'
 
 
@@ -21,25 +21,25 @@
 
 
           <div className="carousel-inner">
-            <div className="carousel-item active height: 500px width: 800px "  data-bs-interval="3000">
-              <img src={img1} className="d-block w-100" alt="..." />
+            <div className="carousel-item active height: 600px width: 800px "  data-bs-interval="3000">
+              <img src={img1} className="d-block w-100 c-img" alt="..." />
               <div className="carousel-caption d-none d-md-block">
-                <h5>Traditional moroccan food</h5>
-                {/* <p>Marrakesh food</p> */}
+                {/* <h5>Traditional moroccan food</h5> */}
+               
               </div>
             </div>
 
-            <div className="carousel-item height: 500px width: 800px "  data-bs-interval="3000">
-              <img src={img2}  className="d-block w-100" alt="..." />
+            <div className="carousel-item height: 600px width: 800px "  data-bs-interval="3000">
+              <img src={img2}  className="d-block w-100 c-img" alt="..." />
               <div className="carousel-caption d-none d-md-block">
-                <h5>Street food accompaniments</h5>
+                {/* <h5>Street food accompaniments</h5> */}
 
               </div>
             </div>
-            <div className="carousel-item height: 500px width: 800px " data-bs-interval="3000">
-              <img src={img3} className="d-block w-100" alt="..." />
+            <div className="carousel-item height: 600px width: 800px " data-bs-interval="3000">
+              <img src={img3} className="d-block w-100 c-img" alt="..." />
               <div className="carousel-caption d-none d-md-block">
-                <h5>Air Fryer Beef Flautas</h5>
+                {/* <h5>Air Fryer Beef Flautas</h5> */}
 
               </div>
             </div>

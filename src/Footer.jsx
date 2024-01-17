@@ -7,20 +7,24 @@ import { faFacebookSquare,faTwitterSquare,faInstagramSquare } from '@fortawesome
 export default function Footer() {
   return (
     <>
+      <hr />
+        <br />
       <div className='Footer'>
+
+      
 
         <div className="social-media">
 
         <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faFacebookSquare} size="2x" />
+          <FontAwesomeIcon icon={faFacebookSquare} data-testid='FaceBook' size="2x" color='rgb(249, 211, 180)'/>
         </a>
 
         <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faInstagramSquare} size="2x" />
+          <FontAwesomeIcon icon={faInstagramSquare} data-testid='instagram' size="2x" color='rgb(249, 211, 180)' />
         </a>
 
         <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faTwitterSquare} size="2x" />
+          <FontAwesomeIcon icon={faTwitterSquare}  data-testid='twitter' size="2x" color='rgb(249, 211, 180)'/>
         </a>
         </div>
 

@@ -7,7 +7,7 @@ export default function CategoryCard(props) {
 
   }
   return (
-    <div className="movie" onClick={() => testDetails()} >
+    <div className="movie" data-testid="category-card" onClick={() => testDetails()} >
 
       <Link to={`/Food-Recipe/CategoryMeal/${props.item.strCategory}`}>
 

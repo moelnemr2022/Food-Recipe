@@ -34,7 +34,7 @@ h1 {
   letter-spacing: 0.9px;
   background: linear-gradient(
     90deg,
-    rgba(249, 211, 180, 1) 0%,
+    rgb(249, 211, 180) 0%,
     rgba(249, 211, 180, 0) 200%
   );
   background-clip: text;
@@ -77,21 +77,6 @@ h1 {
   cursor: pointer;
 }
 
-/* .search button {
-  padding: 20px 40px;
-  border-radius: 0.5rem;
-  margin-left: 15px;
-  color: #a1a1a1;
-  font-family: var(--font-raleway);
-  font-weight: 900;
-  letter-spacing: 0.75px;
-  font-size: 1.25rem;
-  cursor: pointer;
-
-  background: #1f2123;
-  -webkit-box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
-  box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
-} */
 
 .empty {
   width: 100%;
@@ -252,7 +237,8 @@ h1 {
 .FF{color: wheat;}
 
 .main {
-  max-width: 800px;
+  /* max-width: 800px; */
+  max-width: 75%;
   margin: 0 auto;
   text-align: center;
 }
@@ -272,24 +258,37 @@ h1 {
 }
 
 .Instructions {
-  font-size: 20px;
+  line-height: 50px;
+  font-size: 30px;
   margin-bottom: 20px;
-  background-color: rgb(118, 114, 114);
-  color: white;
-  
+  /* background-color: rgb(118, 114, 114);
+  color: white; */
+display: block;
+  color: #f6ac70;
 }
 
 
-h3 {
+
+.mk{
+  display: flex;
+  align-items: center;
+  
+}
+
+/* h3 {
   font-size: 20px;
   margin-bottom: 5px;
   color: #f0f0f0;
   
-}
+} */
 
-.ReactPlayer {
-  margin-top: 20px;
-  border-radius: 20px;
+.ReactPlayer-d {
+  margin: 20px;
+ height: 400px;
+  min-height: fit-content;
+
+
+ 
 }
 
 .Home{
@@ -334,14 +333,14 @@ h3 {
 }
 
 .Footer {
-  font-size: 20px;
+  font-size: 30px;
   height: 80px;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
   color: #f9d3b4;
-  padding-top: 40px;
+  
   display: flex;
   flex-wrap: wrap;
 }
@@ -350,7 +349,8 @@ h3 {
 
 .about-link a {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 30px;
+  color: rgb(249, 211, 180);
 
 
 }
@@ -362,13 +362,17 @@ h3 {
 }
 
 .copy {
-  color: #f9d3b4;
+  color: #f6ac70;
+  margin-top: 10px;
 }
 
 .About {
   color: #f9d3b4;
   font-size: 30px;
+  
+  
 }
+
 
 .About h2{
   display: flex;
@@ -376,4 +380,13 @@ h3 {
   font-size: 40px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
   padding-bottom: 20px;
+  
 }
+
+hr{
+  margin: 20px;
+  color: white;
+  width: 90%;
+  display: block;
+}
+
