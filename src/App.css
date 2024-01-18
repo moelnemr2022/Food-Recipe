@@ -286,7 +286,7 @@ display: block;
   margin: 20px;
  height: 400px;
   min-height: fit-content;
-
+ 
 
  
 }
@@ -351,6 +351,7 @@ display: block;
   text-decoration: none;
   font-size: 30px;
   color: rgb(249, 211, 180);
+ 
 
 
 }
@@ -370,6 +371,7 @@ display: block;
   color: #f9d3b4;
   font-size: 30px;
   
+
   
 }
 
@@ -380,6 +382,7 @@ display: block;
   font-size: 40px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
   padding-bottom: 20px;
+  
   
 }
 

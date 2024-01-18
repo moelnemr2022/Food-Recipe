@@ -38,7 +38,7 @@ function RecipeData({ fCat }) {
       </div>
       <img className='Thumb' src={fCat[0].strMealThumb} />
 
-<br /><br />
+      <br /><br />
 
 
 
@@ -104,16 +104,13 @@ function RecipeData({ fCat }) {
 
       <hr />
       <br />
-      <div className='ReactPlayer-d d-flex justify-content-center rounded my-5' >
+      <div className='ReactPlayer-d d-flex justify-content-center my-5' >
         <ReactPlayer
           url={fCat[0].strYoutube}
           controls={true}
-          width='100%'
+          width='50%'
           height='400px'
-          
-          
-          
-        
+
 
         />
       </div>
