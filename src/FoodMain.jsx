@@ -10,6 +10,8 @@ export default function FoodMain({ setQuary, fCat, searchCat }) {
 
   return (
     <div >
+      <br />
+      <br />
       <div className='dd'>
         <h1 >Food Recipe</h1>
       </div>
@@ -22,10 +24,10 @@ export default function FoodMain({ setQuary, fCat, searchCat }) {
 
 
       </div>
-      <div className="categoryDivBtn d-flex justify-content-center">
+      {/* <div className="categoryDivBtn d-flex justify-content-center">
         <Link to={'/Food-Recipe/Category'} className="btn btn-light tego">Category</Link>
 
-      </div>
+      </div> */}
       <Slider />
 
 

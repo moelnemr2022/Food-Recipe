@@ -11,6 +11,7 @@ import CategoryCard from './CategoryCard'
 import CategoryMeal from './CategoryMeal'
 import Footer from './Footer'
 import AboutUs from './AboutUs'
+import NavBar from './NavBar'
 
 
 
@@ -39,6 +40,7 @@ function App() {
   return (
 
     <div className='app'>
+        <NavBar/>
       <Routes>
       <Route path='/Food-Recipe/MealRecipe/:idMeal' element={<MealRecipe />}></Route> 
         <Route path='/Food-Recipe/CategoryMeal/:strCategory' element={<CategoryMeal />}></Route>
@@ -54,8 +56,9 @@ function App() {
         
         </Route>
         <Route path='/AboutUs' element={<AboutUs />}></Route>
+        <Route path='/NavBar' element={<NavBar />}></Route>
       </Routes>
-     
+   
       <Footer/>
     </div>
    

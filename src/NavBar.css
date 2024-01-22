@@ -1,0 +1,28 @@
+
+
+body {
+  margin: 0;
+  
+}
+
+.navbar {
+
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1px;
+  padding-bottom: 30px;
+  border: none; 
+  font-size: 30px;
+  color: #f9d3b4;
+  
+}
+
+.logo{
+ 
+ font-size: 35px;
+
+}
+

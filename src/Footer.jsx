@@ -27,15 +27,14 @@ export default function Footer() {
           <FontAwesomeIcon icon={faTwitterSquare}  data-testid='twitter' size="2x" color='rgb(249, 211, 180)'/>
         </a>
         </div>
-
         <h3 className='copy'>© 2024 Food Recipe</h3>
-
 
         <div className="about-link">
           <Link to="/AboutUs">AboutUs</Link>
         </div>
-
+        
       </div>
+      
     </>
   )
 }
