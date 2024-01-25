@@ -1,6 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 
-function FoodCard(props) {
+export default function AreaFoodCard(props) {
 
   const testDetails = ()=>{
   console.log('..wwwwwwwww.....',props.item.idMeal);
@@ -9,7 +9,7 @@ function FoodCard(props) {
   return (
     <div className="movie" onClick={testDetails} >
 
-<Link to={`/Food-Recipe/MealRecipe/${props.item.idMeal}`}>
+<Link to={`/Food-Recipe/AreaMealRecipe/${props.item.idMeal}`}>
 
 
 
@@ -37,5 +37,5 @@ function FoodCard(props) {
   )
 }
 
-export default FoodCard
+
 

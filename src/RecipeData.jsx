@@ -108,7 +108,7 @@ function RecipeData({ fCat }) {
         <ReactPlayer
           url={fCat[0].strYoutube}
           controls={true}
-          width='50%'
+          width='70%'
           height='400px'
 
 

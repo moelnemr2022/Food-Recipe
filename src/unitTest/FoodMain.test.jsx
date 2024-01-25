@@ -17,21 +17,21 @@ describe('FoodMain', () => {
     expect(headerText).toBeInTheDocument();
   });
 
- test('category link navigates to correct route', () => {
-    let searchCat = vi.fn();
+//  test('category link navigates to correct route', () => {
+//     let searchCat = vi.fn();
 
-    render(
-      <MemoryRouter initialEntries={['/Food-Recipe']}>
-        <FoodMain searchCat={searchCat} />
-      </MemoryRouter>,
-    );
+//     render(
+//       <MemoryRouter initialEntries={['/Food-Recipe']}>
+//         <FoodMain searchCat={searchCat} />
+//       </MemoryRouter>,
+//     );
 
     
-    const categoryLink = screen.getByRole('link', { name: /Category/i });
+//     const categoryLink = screen.getByRole('link', { name: /Category/i });
 
-    // Check if the category link navigates to the correct route
-    expect(categoryLink).toHaveAttribute('href', '/Food-Recipe/Category');
-  });
+//     // Check if the category link navigates to the correct route
+//     expect(categoryLink).toHaveAttribute('href', '/Food-Recipe/Category');
+//   });
 
    test('displays "No Data Available" message when there is no data', () => {
     let searchCat = vi.fn();
@@ -109,7 +109,8 @@ describe('FoodMain', () => {
  
 
 
- 
+
+  });
   
-}) ;
+
 

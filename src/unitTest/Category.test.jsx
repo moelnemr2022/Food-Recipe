@@ -37,24 +37,6 @@ describe('Category', () => {
 
   });
   
-
-  // test('test no data availible', () => {
-  //   render(
-  //     <MemoryRouter initialEntries={['/Food-Recipe']}>
-  //       <Category />
-  //     </MemoryRouter>
-  //   );
-  
-  //   // Ensure that the component title is rendered
-  //   const noData = screen.getByText(/No Data Available/i);
-  //   expect(noData).toBeInTheDocument();
-  
-    
-
-
-  // });
-
-
   
 
 

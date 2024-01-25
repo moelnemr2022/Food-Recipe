@@ -6,6 +6,8 @@ import CategoryCard from './CategoryCard'
 
 
 
+
+
 export default function Category() {
   const [quary, setQuary] = useState('')
   const [fCat, setFCat] = useState([])

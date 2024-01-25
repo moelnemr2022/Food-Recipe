@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react'
 import RecipeData from './RecipeData'
 
 
- function MealRecipe() {
+export default function AreaMealRecipe() {
 
   const [fCat, setFCat] = useState([])
   const api2 = 'https://www.themealdb.com/api/json/v1/1/lookup.php?i='
@@ -28,10 +28,10 @@ import RecipeData from './RecipeData'
 
   return (
     <>
-      {/* <Link  className='Home btn' to="/Food-Recipe">Home</Link> */}
+      <Link  className='Home btn' to="/Food-Recipe">All Countries</Link>
       
 
-      {fCat.length && <Link  className='Home btn' to={`/Food-Recipe/CategoryMeal/${fCat[0].strCategory}`}> {fCat[0].strCategory} Category</Link>}
+      {fCat.length && <Link  className='Home btn' to={`/Food-Recipe/AreaMeal/${fCat[0].strArea}`}>Back to {fCat[0].strArea}  food</Link>}
       
       <h2 className='FF'>
         {fCat.length > 0 ? <RecipeData fCat={fCat} /> : <p>loading</p>}
@@ -42,4 +42,3 @@ import RecipeData from './RecipeData'
   )
 }
 
-export default MealRecipe

@@ -13,7 +13,7 @@ export default function FoodMain({ setQuary, fCat, searchCat }) {
       <br />
       <br />
       <div className='dd'>
-        <h1 >Food Recipe</h1>
+        <h1 > Welcome to Food Recipe</h1>
       </div>
       <div className='search_new'>
         <div className='search'>

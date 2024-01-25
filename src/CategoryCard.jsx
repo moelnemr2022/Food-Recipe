@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 export default function CategoryCard(props) {
 
   const testDetails = () => {
-    console.log(props.item.strCategory);
+     console.log(props.item.strCategory);
 
   }
   return (

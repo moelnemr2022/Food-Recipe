@@ -27,6 +27,11 @@ This is a React-based web application for exploring and discovering various food
 
 - **Slider:** A visually appealing slider showcasing images related to food.
 
+- Browse different food categories 
+- View detailed recipes for each meal
+
+- Responsive design for various devices
+
 ### Project Structure
 - **App.js:** Main component containing the application structure and routing.
 - **Category.js:** Component for displaying food categories.
@@ -42,4 +47,30 @@ This is a React-based web application for exploring and discovering various food
 - **React Router**
 - **React Player**
 - **Other dependencies as specified in package.json**
+
+### Navigate to the project directory:
+
+- **cd food-recipe-app**
+
+
+### Install dependencies:
+
+- **npm install**
+
+### Usage
+
+- **npm start**
+- **Open your browser and visit http://localhost:5173**
+
+- **Explore the food categories, search for recipes, and enjoy using the app!**
+
+
+### API
+- **This application uses The Meal DB API to fetch food-related data.**
+
+### Folder Structure
+- **src: Contains the source code of the React application.**
+- **components: Individual React components.**
+- **imges: Images used in the application.**
+- **styles: CSS styles for the components.**
 

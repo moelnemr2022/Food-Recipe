@@ -12,6 +12,10 @@ import CategoryMeal from './CategoryMeal'
 import Footer from './Footer'
 import AboutUs from './AboutUs'
 import NavBar from './NavBar'
+import Area from './Area'
+import AreaMeal from './AreaMeal'
+import AreaMealRecipe from './AreaMealRecipe'
+
 
 
 
@@ -44,7 +48,13 @@ function App() {
       <Routes>
       <Route path='/Food-Recipe/MealRecipe/:idMeal' element={<MealRecipe />}></Route> 
         <Route path='/Food-Recipe/CategoryMeal/:strCategory' element={<CategoryMeal />}></Route>
+
         <Route path='/Food-Recipe/Category' element={<Category/>}></Route>
+        <Route path='/Food-Recipe/Area' element={<Area/>}></Route>
+        <Route path='/Food-Recipe/AreaMeal/:strArea' element={<AreaMeal />}></Route>
+        <Route path='/Food-Recipe/AreaMealRecipe/:idMeal' element={<AreaMealRecipe />}></Route> 
+
+
         <Route path='/Food-Recipe' element={
           
           <>

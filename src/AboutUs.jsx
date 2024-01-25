@@ -6,7 +6,7 @@ export default function AboutUs() {
   return (
     <div className='About'>
 
-      <div className='d-flex justify-content-center'> <Link className='Home btn ' to="/Food-Recipe">Home</Link></div>
+      {/* <div className='d-flex justify-content-center'> <Link className='Home btn ' to="/Food-Recipe">Home</Link></div> */}
 
       <h2>About Us </h2>
       <p>
