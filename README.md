@@ -34,6 +34,14 @@ This is a React-based web application for exploring and discovering various food
 
 - Responsive design for various devices
 
+- **Search by Area**
+- Area-specific Search: Users can now search for recipes based on specific geographic areas or cuisines.
+
+- **Footer**
+- Additional Information: The footer section provides additional information about the application, including links to relevant resources, contact details, and social media links.
+
+
+
 ### Project Structure
 - **App.js:** Main component containing the application structure and routing.
 - **Category.js:** Component for displaying food categories.
@@ -43,6 +51,8 @@ This is a React-based web application for exploring and discovering various food
 - **FoodMain.js:** Component for the main page displaying search results and food cards.
 - **MealRecipe.js:** Component for displaying detailed information about a specific recipe.
 - **RecipeData.js:** Component for rendering recipe details including ingredients, instructions, and video.
+- **AreaSearch.js:** Component for enabling users to search for recipes based on specific geographic areas.
+- **Footer.js:** Component for rendering additional information in the footer section.
 
 ### Dependencies
 - **React**
@@ -85,7 +95,7 @@ This is a React-based web application for exploring and discovering various food
 #### Unit Tests
 - Unit tests are implemented using `vitest` for testing React components. You can run the unit tests with the following command:
 
-- npm test
+- npm run test
 
 #### Acceptence Tests
 - using playwright test for react components 

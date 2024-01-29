@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1706534304271" clover="3.2.0">
-  <project timestamp="1706534304271" name="All files">
+<coverage generated="1706535062961" clover="3.2.0">
+  <project timestamp="1706535062961" name="All files">
     <metrics statements="286" coveredstatements="273" conditionals="15" coveredconditionals="12" methods="12" coveredmethods="8" elements="313" coveredelements="293" complexity="0" loc="286" ncloc="286" packages="1" files="6" classes="6"/>
     <file name="Category.jsx" path="/Users/tego/Desktop/Food-Recipe/src/Category.jsx">
       <metrics statements="57" coveredstatements="52" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="2"/>
