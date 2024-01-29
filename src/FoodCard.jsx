@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 function FoodCard(props) {
 
   const testDetails = ()=>{
-  console.log('..wwwwwwwww.....',props.item.idMeal);
+  //  console.log('..wwwwwwwww.....',props.item.idMeal);
 
   }
   return (

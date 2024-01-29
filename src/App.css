@@ -148,11 +148,12 @@ h1 {
   z-index: 2;
   background-color: #343739;
   padding: 16px 24px 24px 24px;
-
+  /* change opacity  */
+opacity: 80%; 
   position: absolute;
   bottom: 0;
   right: 0;
-  left: 0;
+  left: 0;  
 }
 
 .movie div:nth-of-type(3) span {
@@ -162,6 +163,7 @@ h1 {
   letter-spacing: 2px;
   font-weight: 500;
   color: #f0f0f0;
+  
 }
 
 .movie div:nth-of-type(3) h3 {
@@ -402,3 +404,10 @@ hr{
   display: block;
 }
 
+
+
+
+.movie-img{
+  width: 360px;
+  height: 210px;
+}

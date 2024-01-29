@@ -40,40 +40,6 @@ function RecipeData({ fCat }) {
 
       <br /><br />
 
-
-
-      {/* <div className="accordion" id="accordionPanelsStayOpenExample">
-        <div className="accordion-item">
-          <h2 className="accordion-header">
-            <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-              Instructions
-            </button>
-          </h2>
-          <div id="panelsStayOpen-collapseOne" className="accordion-collapse collapse show">
-            <div className="accordion-body">
-              {fCat[0].strInstructions}
-            </div>
-          </div>
-        </div>
-
-        <div className="accordion-item">
-          <h2 className="accordion-header">
-            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-              ingredient:
-            </button>
-          </h2>
-          <div id="panelsStayOpen-collapseTwo" className="accordion-collapse collapse">
-            <div className="accordion-body">
-              {ing.map((item, index) => (<h3 key={index}>{item}</h3>))}
-            </div>
-          </div>
-        </div>
-
-      </div> */}
-
-
-
-
       <div className='mk d-flex flex-column mb-3'>
 
         <h1 >
@@ -108,7 +74,7 @@ function RecipeData({ fCat }) {
         <ReactPlayer
           url={fCat[0].strYoutube}
           controls={true}
-          width='70%'
+          width='50%'
           height='400px'
 
 

@@ -31,6 +31,7 @@ import Tunisia from './imges/Tunisia.gif'
 import Turkey from './imges/Turkey.gif'
 import Vietnam from './imges/Vietnam.gif'
 import Netherlands from './imges/Netherlands.gif'
+import UN from './imges/UN.jpeg'
 
 const countries=[
   {
@@ -137,10 +138,10 @@ const countries=[
       "name": "Turkish",
       image :Turkey
   },
-  {
-      "name": "Unknown",
-      image :""
-  },
+//   {
+//       "name": "UN",
+//       image :UN
+//   },
   {
       "name": "Vietnamese",
       image :Vietnam
@@ -150,11 +151,11 @@ const countries=[
 
 
 export default function Area() {
-  const [quary, setQuary] = useState('')
+//   const [quary, setQuary] = useState('')
   // const [fCat, setFCat] = useState([])
-  const api2 = 'https://www.themealdb.com/api/json/v1/1/search.php?s='
-  const apiUrl = 'https://www.themealdb.com/api/json/v1/1/list.php?a=list';
-  const api3 = 'https://www.themealdb.com/api/json/v1/1/filter.php?c=Seafood';
+//   const api2 = 'https://www.themealdb.com/api/json/v1/1/search.php?s='
+//   const apiUrl = 'https://www.themealdb.com/api/json/v1/1/list.php?a=list';
+//   const api3 = 'https://www.themealdb.com/api/json/v1/1/filter.php?c=Seafood';
 
 
 

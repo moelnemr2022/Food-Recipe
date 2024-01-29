@@ -11,7 +11,7 @@ test('check the search to add item of food', async ({ page }) => {
 test('check the search while empty', async ({ page }) => {
   await page.goto('http://localhost:5173/');
   await page.getByPlaceholder('search for food').click();
-  await page.getByPlaceholder('search for food').fill('');
+  await page.locator('.search > img').click();
   await expect (page.getByPlaceholder('search for food')).toHaveValue('')
 });
 
@@ -26,16 +26,18 @@ test('check search with different item ', async ({ page }) => {
   await page.goto('http://localhost:5173/');
   await page.getByPlaceholder('search for food').click();
   await page.getByPlaceholder('search for food').fill('meat');
-  await page.locator('img').first().click();
+  await page.locator('.search > img').click();
 
-  await expect (page.getByRole('link', { name: 'Turkey Meatloaf Turkey' })).toBeVisible()
+  await expect( page.getByRole('heading', { name: 'Turkey Meatloaf', exact: true })).toBeVisible()
 });
 
 test('check search with wrong item', async ({ page }) => {
 
+ 
   await page.goto('http://localhost:5173/Food-Recipe');
-  await page.getByPlaceholder('search for food').fill('kkkk');
-  await page.locator('img').first().click();
+  await page.getByPlaceholder('search for food').click();
+  await page.getByPlaceholder('search for food').fill('kkk');
+  await page.locator('.search > img').click();
   await expect (page.getByRole('heading', { name: 'No Data Available' })).toBeVisible()
   
 });

@@ -5,9 +5,11 @@
 
 
 <center>
-<img src="./src/imges/pic.png" alt="Food-main" width="400" height="300"/>
+<img src="./src/imges/main.png" alt="Food-main" width="400" height="300"/>
 <img src="./src/imges/pic1.png" alt="Food-main" width="400" height="300"/>
 <img src="./src/imges/pic2.png" alt="Food-main" width="400" height="300"/>
+<img src="./src/imges/area.png" alt="Food-main" width="400" height="300"/>
+<img src="./src/imges/footer.png" alt="Food-main" width="400" height="300"/>
 </center>
 
 
@@ -46,6 +48,10 @@ This is a React-based web application for exploring and discovering various food
 - **React**
 - **React Router**
 - **React Player**
+- **bootstrap**
+- **fontawesome**
+- **playwright/test**
+- **testing-library-vitest**
 - **Other dependencies as specified in package.json**
 
 ### Navigate to the project directory:
@@ -73,4 +79,18 @@ This is a React-based web application for exploring and discovering various food
 - **components: Individual React components.**
 - **imges: Images used in the application.**
 - **styles: CSS styles for the components.**
+
+### Testing
+
+#### Unit Tests
+- Unit tests are implemented using `vitest` for testing React components. You can run the unit tests with the following command:
+
+- npm test
+
+#### Acceptence Tests
+- using playwright test for react components 
+
+- npx playwright test 
+
+
 

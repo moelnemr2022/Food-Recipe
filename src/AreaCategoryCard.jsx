@@ -8,7 +8,7 @@ export default function AreaCategoryCard(props) {
     
   }
   return (
-    <div className="movie" onClick={() => testDetails()} >
+    <div className="movie movie-img" onClick={() => testDetails()} >
 
       <Link to={`/Food-Recipe/AreaMeal/${props.name}`}>
 
@@ -19,9 +19,8 @@ export default function AreaCategoryCard(props) {
         </div>
 
         <div>
-          <img
-            // src={props.item.strArea !== "N/A" ? props.item.strArea: "https://via.placeholder.com/400"}
-            // alt={props.item.strArea}
+          <img 
+            
              src={props.image}
           />
           
